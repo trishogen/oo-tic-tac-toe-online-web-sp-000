@@ -75,7 +75,7 @@ class TicTacToe
 
   def play
     turn until over?
-    !won? == nil ? (puts "Congratulations #{winner}!") : (puts "Cat's Game!")
+    won? == nil ? (puts "Cat's Game!") : (puts "Congratulations #{winner}!")
   end
 
 end
