@@ -75,7 +75,7 @@ class TicTacToe
 
   def play
     turn until over?
-    won? ? puts "Congratulations #{winner}!" : puts "Cat's Game!"
+    won? == true ? puts "Congratulations #{winner}!" : puts "Cat's Game!"
   end
 
 end
